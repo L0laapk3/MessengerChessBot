@@ -1,0 +1,2 @@
+$("strong.actor:contains('FBChess')").parent().parent().parent().filter(function(i, a) {return !$(a).find("div.messageAttachments").find("i").length}).remove();
+!$("strong.actor:contains('FBChess'):last").parent().parent().parent().find("div.messageAttachments").find("i").css("backgroundImage")

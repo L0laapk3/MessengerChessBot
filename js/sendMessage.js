@@ -1,0 +1,1 @@
+$("#composerInput").val(message).trigger("submit");
